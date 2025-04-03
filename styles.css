@@ -34,3 +34,19 @@ img.contact {
 section.contact {
     height: 2.4rem;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+
+    img.contact {
+        filter: invert(1);
+    }
+
+    a {
+        color: #2086FF;
+    }
+}
